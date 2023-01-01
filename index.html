@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Memory Game using HTML, CSS, and JavaScript">
+  <meta name="keywords" content="Memory Game">
+  <meta name="author" content="Muhammad Galhoum">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <title>Memory Game</title>
+</head>
+<body>
+  <div class="splash-screen">
+    <div class="content">
+      <p>Hey there, You think you've got a sharp memory? Let's see how far you can go.</p>
+      <span>Start</span>
+    </div>
+  </div>
+  <div class="info">
+    <div class="name">
+      Welcome: <span></span>
+    </div>
+    <div class="time">
+      Time: <span>60</span>&nbsp;sec
+    </div>
+    <div class="tries">
+      Wrong Tries: <span>0</span>
+    </div>
+  </div>
+  <div class="game-blocks">
+    <div class="game-block" data-name="apple">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/apple.png" alt="apple">
+      </div>
+    </div>
+    <div class="game-block" data-name="apple">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/apple.png" alt="apple">
+      </div>
+    </div>
+    <div class="game-block" data-name="apricot">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/apricot.png" alt="apricot">
+      </div>
+    </div>
+    <div class="game-block" data-name="apricot">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/apricot.png" alt="apricot">
+      </div>
+    </div>
+    <div class="game-block" data-name="banana">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/banana.png" alt="banana">
+      </div>
+    </div>
+    <div class="game-block" data-name="banana">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/banana.png" alt="banana">
+      </div>
+    </div>
+    <div class="game-block" data-name="cake">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/cake.png" alt="cake">
+      </div>
+    </div>
+    <div class="game-block" data-name="cake">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/cake.png" alt="cake">
+      </div>
+    </div>
+    <div class="game-block" data-name="cherry">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/cherry.png" alt="cherry">
+      </div>
+    </div>
+    <div class="game-block" data-name="cherry">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/cherry.png" alt="cherry">
+      </div>
+    </div>
+    <div class="game-block" data-name="ananas">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/ananas.png" alt="ananas">
+      </div>
+    </div>
+    <div class="game-block" data-name="ananas">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/ananas.png" alt="ananas">
+      </div>
+    </div>
+    <div class="game-block" data-name="lemon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/lemon.png" alt="lemon">
+      </div>
+    </div>
+    <div class="game-block" data-name="lemon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/lemon.png" alt="lemon">
+      </div>
+    </div>
+    <div class="game-block" data-name="pear">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/pear.png" alt="pear">
+      </div>
+    </div>
+    <div class="game-block" data-name="pear">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/pear.png" alt="pear">
+      </div>
+    </div>
+    <div class="game-block" data-name="plum">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/plum.png" alt="plum">
+      </div>
+    </div>
+    <div class="game-block" data-name="plum">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/plum.png" alt="plum">
+      </div>
+    </div>
+    <div class="game-block" data-name="watermelon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/watermelon.png" alt="watermelon">
+      </div>
+    </div>
+    <div class="game-block" data-name="watermelon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="imgs/watermelon.png" alt="watermelon">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
